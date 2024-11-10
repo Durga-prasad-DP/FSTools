@@ -4,16 +4,14 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import org.junit.jupiter.api.Test;
 
-/**
- * Unit test for simple App.
- */
+
 public class AppTest {
 
-    /**
-     * Rigorous Test :-)
-     */
+  
     @Test
-    public void shouldAnswerWithTrue() {
-        assertTrue(true);
+    public void TestWithPositiveValues() {
+      App app= new App();
+      int excpted =30;
+      int actual=app.sum(10, 20);
     }
 }
